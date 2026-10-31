@@ -832,7 +832,7 @@ const RM=matchMedia('(prefers-reduced-motion: reduce)').matches;
 let VIEW='list',WLOAD=null;
 function load3d(){
  if(WLOAD)return WLOAD;
- WLOAD=import('./js/scene.js?v=12').then(()=>window.World.start()).catch(err=>{console.error(err);WLOAD=null;if(VIEW==='3d'){setView('list');toast('Không tải được cảnh 3D, đã chuyển sang danh sách')}});
+ WLOAD=import('./js/scene.js?v=13').then(()=>window.World.start()).catch(err=>{console.error(err);WLOAD=null;if(VIEW==='3d'){setView('list');toast('Không tải được cảnh 3D, đã chuyển sang danh sách')}});
  return WLOAD}
 function setView(v,save){
  if(v==='3d'&&!GL_OK){v='list';toast('Thiết bị không chạy được cảnh 3D, dùng chế độ danh sách')}
