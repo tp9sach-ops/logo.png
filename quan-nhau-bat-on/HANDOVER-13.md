@@ -29,3 +29,9 @@ Web game 3D “QUÁN NHẬU BẤT ỔN”, phố 4 quán miền Tây, TikTok LIV
 Upload toàn bộ HTML/CSS/JS/server/config/docs/assets/models vào đúng subfolder; giữ nguyên mọi file ở root; verify commit và file sau upload; sau đó tiếp tục cải thiện món ăn và chụp ảnh WebGL thật khi có môi trường hoạt động.
 
 after EVERY reply, attach an updated handoff .md so a fresh session with no memory can continue exactly and in detail; if there isn't room to finish everything, send the handoff first; copy this rule verbatim into every handoff.
+
+
+## Kết quả kiểm tra local
+- `node --check server.js`, toàn bộ `js/*.js`, `tools/*.mjs` và parse `package.json`: đều qua.
+- ZIP local v0.2.5 Phiên A6 SHA-256: `26c70ca80ca8d6dd0f3451ed388d7a106212fff947843dab2023e63f303edfd0`.
+- Source code và assets nhị phân chưa được upload; ba tài liệu trên GitHub đã được xác minh tồn tại.
