@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: quan-nhau-bat-on
+    runtime: node
+    rootDir: quan-nhau-bat-on
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /
+    plan: free
